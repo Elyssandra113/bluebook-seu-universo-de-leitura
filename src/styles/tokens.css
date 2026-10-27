@@ -1,0 +1,97 @@
+:root {
+  /* Core palette */
+  --navy-900: #102a43;
+  --navy-800: #163a5f;
+  --blue-700: #1d4ed8;
+  --blue-600: #2563eb;
+  --blue-500: #3b82f6;
+  --blue-400: #60a5fa;
+  --blue-200: #bfdbfe;
+  --blue-100: #dbeafe;
+  --blue-050: #eff6ff;
+  --white: #ffffff;
+  --gray-50: #f5f8fc;
+  --gray-100: #edf2f7;
+  --ink-700: #334e68;
+  --ink-500: #627d98;
+  /* Secondary text: >= 4.5:1 on --gray-50, --white and --blue-100 */
+  --text-muted: #52677d;
+  --line: #d9e2ec;
+  --line-strong: #bcccdc;
+  --amber-500: #d97706;
+  --amber-700: #92400e;
+  --amber-100: #fef3c7;
+  --success-600: #047857;
+  --success-100: #d1fae5;
+  --danger-600: #b42318;
+  --danger-100: #fee4e2;
+
+  /* Typography */
+  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Manrope', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono',
+    monospace;
+
+  /* Spacing scale (multiples of 4) */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+
+  /* Shape and depth */
+  --radius-sm: 10px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 28px;
+  --radius-pill: 999px;
+  --shadow-xs: 0 1px 2px rgba(16, 42, 67, 0.05);
+  --shadow-sm: 0 1px 2px rgba(16, 42, 67, 0.05),
+    0 8px 20px rgba(16, 42, 67, 0.06);
+  --shadow-md: 0 1px 2px rgba(16, 42, 67, 0.05),
+    0 12px 32px rgba(16, 42, 67, 0.08);
+  --shadow-lg: 0 2px 4px rgba(16, 42, 67, 0.06),
+    0 24px 56px rgba(16, 42, 67, 0.14);
+  --shadow-blue: 0 14px 32px rgba(37, 99, 235, 0.24);
+
+  /* Layout */
+  --container: min(1200px, calc(100% - 2rem));
+  --header-height: 76px;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --transition-fast: 160ms var(--ease-out);
+  --transition-base: 220ms var(--ease-out);
+
+  color-scheme: light;
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--ink-700);
+  background: var(--gray-50);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --container: min(1200px, calc(100% - 3rem));
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1280px) {
+  :root {
+    font-size: 18px;
+  }
+}
