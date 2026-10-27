@@ -4,6 +4,8 @@ Aplicação web acadêmica para **descobrir livros, organizar uma biblioteca pes
 
 > Projeto acadêmico de desenvolvimento web · 2026
 
+**Site publicado:** <https://elyssandra113.github.io/bluebook-seu-universo-de-leitura/>
+
 ---
 
 ## Sumário
@@ -311,18 +313,18 @@ Ela define paleta, tipografia, componentes, organização de arquivos, regras de
 
 ## Publicação no GitHub Pages
 
-O workflow `.github/workflows/deploy.yml` executa testes, lint e build a cada push na branch `main` e publica o conteúdo de `dist/` no GitHub Pages.
+**Site publicado:** <https://elyssandra113.github.io/bluebook-seu-universo-de-leitura/>
 
-### Passos manuais (repositório ainda não publicado por este ambiente)
+O workflow `.github/workflows/deploy.yml` executa testes, lint e build a cada push na branch `main` e publica o conteúdo de `dist/` no GitHub Pages. O repositório está configurado com **Settings → Pages → Source: GitHub Actions**.
 
-Não há, nesta entrega, URL pública confirmada. Para publicar:
+### Publicação manual (referência)
 
 ```bash
 # 1. Crie o repositório no GitHub (interface web ou gh CLI)
-#    Nome sugerido: bluebook-seu-universo-de-leitura
+#    Nome: bluebook-seu-universo-de-leitura
 
 # 2. No diretório do projeto, conecte o remoto
-git remote add origin https://github.com/<SEU_USUARIO>/bluebook-seu-universo-de-leitura.git
+git remote add origin https://github.com/Elyssandra113/bluebook-seu-universo-de-leitura.git
 
 # 3. Envie a branch principal
 git push -u origin main
